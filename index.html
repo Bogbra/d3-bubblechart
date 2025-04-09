@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubblechart 2013–2022</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <h2>Bubblechart 2013–2022</h2>
+
+    <div class="chart-layout">
+
+        <div class="left-panel">
+            <div id="chartArea"></div>
+            <div class="tooltip" id="tooltip"></div>
+            <div class="slider">
+                <label for="yearSlider">Jahr:</label>
+                <input type="range" id="yearSlider" min="2013" max="2022" step="1" value="2013">
+                <span id="yearLabel">2013</span>
+            </div>
+        </div>
+
+        <div id="countryFilter" class="checkbox-list"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
