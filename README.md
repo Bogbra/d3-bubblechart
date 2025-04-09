@@ -14,7 +14,7 @@ Dieses Projekt ist eine interaktive Datenvisualisierung mit [D3.js](https://d3js
 - **Hintergrundraster & große Jahreszahl im Chart**
 
 ## Daten
-Die Daten stammen aus der [World Bank Group](https://databank.worldbank.org/), manuell aufbereitet für 10 Länder und 10 Jahre (2013–2022).  
+Die Daten stammen aus der [World Bank Group](https://databank.worldbank.org/), für 10 Länder und 10 Jahre (2013–2022).  
 Verwendet wurden Indikatoren zu:
 - Lebenserwartung
 - Einkommen pro Kopf
